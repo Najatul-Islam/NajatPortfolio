@@ -48,7 +48,7 @@ const HeroProjects = () => {
             <Container>
         <h1 className='text-[42px] font-semibold text-center pb-10'>Works & Projects</h1>
       {/* FILTER BUTTON */}
-      <div className="md:flex justify-center gap-4 mb-10">
+      <div className="flex justify-center gap-4 mb-10">
       <div className="">
           <button className="filter-btn py-2 px-3  sm:gap-x-2.5 rounded-2xl bg-blue-400 hover:border hover:border-blue-400 hover:bg-transparent" data-filter="all">All</button>
         <button className="filter-btn py-2 px-3 rounded-2xl sm:gap-x-2.5 bg-blue-400 hover:border hover:border-blue-400 hover:bg-transparent" data-filter=".web">Web Designs</button>
