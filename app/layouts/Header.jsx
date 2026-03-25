@@ -14,7 +14,7 @@ const Header = () => {
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Resume', href: 'https://acrobat.adobe.com/id/urn:aaid:sc:AP:9a176591-963f-424c-821f-6a27a137688d', target: '_blank' },
-    { name: 'Portfolio', href: '/portfolio' },
+    { name: 'Projects', href: '/projects' },
     { name: 'Achievements', href: '/achievements' },
     { name: 'Blogs', href: '/blogs' },
     { name: 'Contact', href: '/contact' },

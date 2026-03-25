@@ -6,7 +6,7 @@ import { useState } from "react"
 import { Fancybox } from "@fancyapps/ui/dist/fancybox/";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
-const HeroPortfolio = () => {
+const HeroProjects = () => {
 
   useEffect(() => {
     Fancybox.bind("[data-fancybox]", {})
@@ -44,7 +44,7 @@ const HeroPortfolio = () => {
   return (
     <div>
           <section className="rounded-2xl my-5 shadow-2xl w-full py-15 px-12">
-        <h1 className='text-[42px] font-semibold text-center pb-10'>Portfolio</h1>
+        <h1 className='text-[42px] font-semibold text-center pb-10'>Works & Projects</h1>
       {/* FILTER BUTTON */}
       <div className="flex  justify-center gap-4 mb-12">
         <button className="filter-btn py-2 px-3 rounded-2xl bg-blue-400 hover:border hover:border-blue-400 hover:bg-transparent" data-filter="all">All</button>
@@ -231,4 +231,4 @@ const HeroPortfolio = () => {
   )
 }
 
-export default HeroPortfolio
+export default HeroProjects

@@ -5,10 +5,11 @@ import HeroBanner from './HeroBanner'
 import HeroAbout from './HeroAbout'
 import HeroResume from './HeroResume'
 import HeroContact from './HeroContact'
-import HeroPortfolio from './HeroPortfolio'
+import HeroPortfolio from './HeroProjects'
 import ScrollBtn from './ScrollBtn'
 import HeroAchieve from './HeroAchieve'
 import HeroBlog from './HeroBlog'
+import HeroProjects from './HeroProjects'
 
 const MainPage = () => {
    
@@ -18,7 +19,7 @@ const MainPage = () => {
       <HeroBanner/>
       <HeroAbout/>
       <HeroResume/>
-      <HeroPortfolio/>
+      <HeroProjects/>
       <HeroAchieve/>
       <HeroBlog/>
       <HeroContact/>
