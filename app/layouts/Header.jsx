@@ -30,7 +30,7 @@ const Header = () => {
             <div className="lg:mr-20">
               <Link href="/">
                 <Image 
-                  className="w-[120px] lg:w-[150px] h-auto py-2"
+                  className="w-30 lg:w-37.5 h-auto py-2"
                   src="/logoO.png"
                   alt="logo of the portfolio"
                   width={150}
@@ -64,7 +64,7 @@ const Header = () => {
           </Flex>
 
           {/* Mobile Dropdown Menu */}
-          <div className={`lg:hidden transition-all duration-300 ease-in-out overflow-hidden ${isOpen ? 'max-h-[500px] opacity-100 pb-6' : 'max-h-0 opacity-0'}`}>
+          <div className={`lg:hidden transition-all duration-300 ease-in-out overflow-hidden ${isOpen ? 'max-h-125 opacity-100 pb-6' : 'max-h-0 opacity-0'}`}>
              <ul className='flex flex-col items-center gap-y-4 border-t py-2.5 border-gray-300'>
                 {links.map((link) => (
                   <li key={link.name} className='font-medium hover:bg-blue-300 duration-500 hover:font-semibold  w-full text-center'>

@@ -35,13 +35,16 @@ const HeroBanner = () => {
            <Link href={"https://www.facebook.com/mesadika01"} target='_blank'><FaSquareFacebook className='text-4xl'/></Link>
       </div>
         <div className="mt-8 flex gap-4 justify-center md:justify-start">
+         <Link href={"/contact"}>
           <button className="px-6 py-3 bg-blue-400 text-white rounded-xl hover:text-blue-500 hover:bg-transparent hover:border hover:border-blue-500  transition">
             Hire Me
           </button>
+         </Link>
 
+          <Link href={"/portfolio"}>
           <button className="px-6 py-3 border-2 border-gray-400 dark:border-gray-300 rounded-xl text-gray-300 dark:text-gray-500 hover:text-gray-100 dark:hover:bg-gray-700 transition">
             View Work
-          </button>
+          </button></Link>
         </div>
       </div>
 
@@ -168,9 +171,11 @@ const card = {
   justifyContent: "center",
   alignItems: "center",
   borderRadius: 20,
-  background: "#ffffff",
+  background: "white",
   boxShadow: "0 10px 30px rgba(0,0,0,0.15)",
   transformOrigin: "10% 60%",
 }
 
 export default HeroBanner;
+
+
