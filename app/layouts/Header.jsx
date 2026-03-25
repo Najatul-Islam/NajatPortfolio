@@ -52,8 +52,7 @@ const Header = () => {
 
             {/* Right Side Tools */}
             <div className="flex items-center gap-4 mx-2 p-2 lg:mx-6 lg:px-4 lg:py-2 lg:pb-0">
-              <ThemeToggle className="size-3" />
-              
+              <div className="hidden lg:block items-center "><ThemeToggle /></div>
               {/* Mobile Menu Button (Only shows on small screens) */}
               <button 
                 onClick={() => setIsOpen(!isOpen)}
@@ -66,19 +65,20 @@ const Header = () => {
 
           {/* Mobile Dropdown Menu */}
           <div className={`lg:hidden transition-all duration-300 ease-in-out overflow-hidden ${isOpen ? 'max-h-[500px] opacity-100 pb-6' : 'max-h-0 opacity-0'}`}>
-             <ul className='flex flex-col items-center gap-y-4 border-t border-gray-300  pt-4'>
+             <ul className='flex flex-col items-center gap-y-4 border-t py-2.5 border-gray-300'>
                 {links.map((link) => (
                   <li key={link.name} className='font-medium hover:bg-blue-300 duration-500 hover:font-semibold  w-full text-center'>
                     <Link 
                       onClick={() => setIsOpen(false)} 
                       href={link.href} 
                       target={link.target || '_self'}
-                      className="block w-full py-2"
+                      className="block w-full"
                     >
                       {link.name}
                     </Link>
                   </li>
                 ))}
+                <ThemeToggle />
               </ul>
           </div>
         </div>

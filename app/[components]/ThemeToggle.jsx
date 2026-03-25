@@ -17,9 +17,9 @@ const ThemeToggle = () => {
       onClick={() =>
         setTheme(theme === 'dark' ? 'light' : 'dark')
       }
-      className="light: bg-amber-50 text-black dark:bg-blue-200 rounded-full"
+      className="py-2.5 px-3.5 light: bg-amber-50 text-black dark:bg-blue-200 rounded-full"
     > 
-      {theme === 'dark' ? '🌙 Dark' : '☀️ Light'}
+      {theme === 'dark' ? ' Dark' : ' Light'}
     </button>
     </div>
   )
