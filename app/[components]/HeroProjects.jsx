@@ -49,15 +49,11 @@ const HeroProjects = () => {
         <h1 className='text-[42px] font-semibold text-center pb-10'>Works & Projects</h1>
       {/* FILTER BUTTON */}
       <div className="flex justify-center gap-4 my-10">
-      <div className="my-2.5">
-          <button className="filter-btn py-2 px-3  sm:gap-x-2.5 rounded-2xl bg-blue-400 hover:border hover:border-blue-400 hover:bg-transparent" data-filter="all">All</button>
-        <button className="filter-btn py-2 px-3 rounded-2xl sm:gap-x-2.5 bg-blue-400 hover:border hover:border-blue-400 hover:bg-transparent" data-filter=".web">Web Designs</button>
-      </div>
-        <div className="my-2.5">
-          <button className="filter-btn py-2 px-3 rounded-2xl sm:gap-x-2.5 bg-blue-400 hover:border hover:border-blue-400 hover:bg-transparent" data-filter=".dev">Web Development</button>
-        <button className="filter-btn py-2 px-3 rounded-2xl sm:gap-x-2.5  bg-blue-400 hover:border hover:border-blue-400 hover:bg-transparent" data-filter=".dd">Designs with Development</button>
+          <button className="filter-btn py-2 px-3 gap-x-2.5 rounded-2xl bg-blue-400 hover:border hover:border-blue-400 hover:bg-transparent" data-filter="all">All</button>
+        <button className="filter-btn py-2 px-3 rounded-2xl my-2.5 gap-x-2.5 bg-blue-400 hover:border hover:border-blue-400 hover:bg-transparent" data-filter=".web">Web Designs</button>
+          <button className="filter-btn py-2 px-3 rounded-2xl gap-x-2.5 bg-blue-400 hover:border hover:border-blue-400 hover:bg-transparent" data-filter=".dev">Web Development</button>
+        <button className="filter-btn py-2 px-3 rounded-2xl gap-x-2.5 my-2 bg-blue-400 hover:border hover:border-blue-400 hover:bg-transparent" data-filter=".dd">Designs with Development</button>
         </div>
-      </div>
 
       {/* ITEMS */}
       <div ref={containerRef} className="grid items-center md:grid-cols-3 gap-6">
