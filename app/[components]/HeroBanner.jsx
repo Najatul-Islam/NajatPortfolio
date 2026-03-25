@@ -114,7 +114,7 @@ function Card({ hueA, hueB }) {
     >
       <div style={{ ...splash, background }} />
 
-      <motion.div style={card} variants={cardVariants} className="aspect-[300/430] w-full">
+      <motion.div style={card} variants={cardVariants} className="aspect-300/430 w-full">
         <Image
           src="/najat.jpg"
           alt="my pic"
