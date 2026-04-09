@@ -5,8 +5,8 @@ import Container from '../[components]/Container'
 
 const HeroAchieve = () => {
   return (
-    <div className="my-5">
-       <section className="rounded-2xl mt-2.5 shadow-2xl w-full py-10 md:py-12 px-4 sm:px-6 md:px-10">
+    <div className="md:my-5">
+       <section className="lg:rounded-2xl lg:mt-2.5 lg:shadow-2xl w-full py-6 md:py-8 px-6 sm:px-7 md:px-12">
         <h1 className='text-3xl pt-5 sm:text-4xl md:text-[41px] font-semibold text-center'>My Achievements</h1>
         <p className=' text-sm sm:text-base md:text-lg py-3 sm:py-5 text-center text-neutral-500'>
           Achievements + Role Impact, Certifications, Letters, Badges and Some Cool Stuff that I have done & Got!

@@ -17,7 +17,7 @@ const HeroResume = () => {
         href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:9a176591-963f-424c-821f-6a27a137688d"
         target="_blank"
       >
-        <button className="absolute top-1/2 left-1/2 transform  -translate-y-1/2 px-6 py-3 bg-blue-400 text-white rounded-xl hover:text-blue-500 hover:bg-white hover:border hover:border-blue-500 transition text-sm sm:text-base md:text-lg">
+        <button className="absolute top-1/2 left-1/2 transform  -translate-y-1/2 lg:px-6 lg:py-4 md:px-5 md:py-3 px-3 py-2.5 sm:text-sm bg-blue-400 text-white rounded-xl hover:text-blue-500 hover:bg-white hover:border hover:border-blue-500 transition text-sm sm:text-base md:text-lg">
           Download My Resume
         </button>
       </Link>

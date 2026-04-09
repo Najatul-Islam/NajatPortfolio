@@ -17,7 +17,7 @@ const Footer = () => {
   return (
     <div>
     <Container>
-      <div className="p-4 sm:p-4 md:p-6 shadow-[0_-10px_30px_rgba(0,0,0,0.2)] rounded-2xl">
+      <div className="p-4 sm:p-4 md:p-6 lg:shadow-[0_-10px_30px_rgba(0,0,0,0.2)] lg:rounded-2xl">
 
         <Flex className={"justify-center flex-col md:flex-row items-center text-center md:text-left"}>
           

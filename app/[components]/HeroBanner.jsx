@@ -14,7 +14,7 @@ const HeroBanner = () => {
   return (
     <>
       <Container>
-        <section className="w-full mt-3  flex flex-col md:flex-row items-center justify-between px-4 sm:px-6 md:px-10 lg:px-16 py-10 sm:py-12 md:py-14 lg:py-16 transition-colors rounded-2xl shadow-2xl overflow-hidden">
+        <section className="w-full lg:mt-3 flex flex-col md:flex-row items-center justify-between px-6 sm:px-7 md:px-12 lg:px-16 py-5 sm:py-6 md:py-8 lg:py-16 transition-colors lg:rounded-2xl lg:shadow-2xl overflow-hidden">
           <div className="my-6 w-full order-2 md:order-1 text-center md:text-left">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight md:w-150">
               Hi, I'm <span className="text-blue-500">Najatul Islam Sadika</span> 👋

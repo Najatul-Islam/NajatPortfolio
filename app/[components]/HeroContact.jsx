@@ -36,7 +36,7 @@ const HeroContact = () => {
 
   return (
     <Container>
-      <div className="rounded-2xl shadow-2xl w-full pt-10 sm:pt-12 md:pt-15 px-4 sm:px-6 md:px-12">
+      <div className="lg:rounded-2xl lg:shadow-2xl w-full pt-6 sm:pt-8 md:pt-10 px-6 sm:px-7 md:px-12">
         <Flex className="flex-col lg:flex-row gap-10">
           
           {/* Left Text */}

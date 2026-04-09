@@ -18,7 +18,7 @@ import {TbPercentage10 , TbPercentage20 ,TbPercentage25,TbPercentage50, TbPercen
 
 const HeroAbout = () => {
   return (
-    <div className='py-8 sm:py-10 md:py-12 px-4 sm:px-6 md:px-10 lg:px-14 my-5 shadow-2xl rounded-2xl'>
+    <div className='py-5 sm:py-6 md:py-8 px-6 sm:px-7 md:px-12 lg:px-14 my-5 lg:shadow-2xl lg:rounded-2xl'>
       <Container>
 
         <h1 className='text-2xl sm:text-3xl md:text-4xl font-semibold text-center pb-10 md:pb-16'>

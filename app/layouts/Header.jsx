@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <div className="relative z-50">
       <Container>
-        <div className="shadow-2xl rounded-2xl transition-all">
+        <div className="lg:shadow-2xl lg:rounded-2xl transition-all">
           <Flex className="justify-between items-center px-4 lg:px-0">
             
             {/* Logo Section */}

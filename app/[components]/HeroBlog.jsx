@@ -4,8 +4,8 @@ import Link from 'next/link'
 
 const HeroBlog = () => {
   return (
-    <div className="my-5">
-      <section className="rounded-2xl my-5 shadow-2xl w-full py-10 md:py-15 px-4 sm:px-8 md:px-12">
+    <div className="md:my-5">
+      <section className="lg:rounded-2xl my-3 lg:shadow-2xl w-full py-6 md:py-8 px-6 sm:px-7 md:px-12">
         <h1 className='text-3xl sm:text-4xl md:text-[41px] font-semibold text-center'>Blogs</h1>
         <p className='text-sm sm:text-base md:text-lg py-3 sm:py-4 text-center text-neutral-500'>
           Driven by a passion for development, I create, write, and inspire others by sharing what I learn!
